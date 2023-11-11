@@ -1,70 +1,32 @@
-# Getting Started with Create React App
+# Names-day-app
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Names-day-app](https://github.com/Maksymilian-Urbanowicz/Names-day-app/assets/80683009/e8166552-1c25-4873-8bd9-42a060a7d75c)
 
-## Available Scripts
 
-In the project directory, you can run:
+Names-day-app is a mobile application designed for adding and tracking the birthdays and names days of your close friends and family. With this app, you can easily keep track of important dates, receive reminders, and celebrate special occasions with your loved ones.
 
-### `npm start`
+## Key Features:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Birthday Tracking**: Add and store the birthdays of your friends and family members to receive timely reminders and plan celebrations.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Names Day Calendar**: Keep track of names days for each contact. The app provides a calendar view to see upcoming names days.
 
-### `npm test`
+- **Reminders**: Set customizable reminders for upcoming birthdays and names days, ensuring you never miss an important celebration.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Personalized Celebrations**: Add personalized notes or gifts for each contact to make their special day even more meaningful.
 
-### `npm run build`
+## Getting Started:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Clone this repository to your local machine.
+2. Install the app on your Android device.
+3. Add contacts and their birthdays/names days to start tracking and celebrating.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Feel free to explore and enhance Names-day-app. We welcome feedback, suggestions, and contributions to make the app even more useful for users.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+[Include information about how to contribute, report issues, or get in touch with the project.]
+Adjust the content as needed, including the image link and any additional instructions for setting up or using the app.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

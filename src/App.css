@@ -1,27 +1,105 @@
+body {
+  background-color: #fb8da0;
+}
 .App {
   text-align: center;
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 15vh;
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
+/* @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
-}
+} */
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: #fb4570;
+  height: 15vh;
+  padding: 10px;
   display: flex;
-  flex-direction: column;
+  flex-flow: row nowrap;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.App-section {
+  position: relative;
+  top: 0;
+  left: 50%;
+  margin-top: 75px;
+  background-color: #efebe0;
+  width: 50vw;
+  min-height: 50vh;
+  border-radius: 15px;
+  transform: translateX(-50%);
+}
+
+h1 {
+  font-size: 3em;
+  font-family: "Hanken Grotesk", sans-serif;
+  font-weight: 900;
+  padding: 50px 10px 0px 10px;
+}
+
+.form-element {
+  text-align-last: left;
+  /* border: 1px solid red; */
+  max-width: 75%;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/*iOS Reset*/
+input {
+  appearance: none;
+  border-radius: 0;
+}
+
+input {
+  display: block;
+  font-size: 2em;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid #4d4d4d;
+  margin-bottom: 15px;
+  width: 100%;
+  text-align: center;
+  background-color: transparent;
+  transition: all 0.5s ease-in-out;
+}
+
+.input-focus{
+border-bottom: 2px solid #fb4570;
+}
+
+input[type="date"]{
+
+}
+
+.input-label {
+  position: relative;
+  top: 40px;
+  left: 0;
+  color:#4d4d4d;
+  font-family: "Hanken Grotesk", sans-serif;
+  font-size: 1.2em;
+  font-weight: 300;
+  transition: all 0.5s ease-in-out;
+}
+.input-label-focus{
+  top:0;
+  color:#fb4570;
+  font-weight: 400;
+}
+.hidden{
+  color: transparent;
 }
 
 .App-link {
